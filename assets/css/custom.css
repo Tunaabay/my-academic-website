@@ -1,0 +1,307 @@
+/* Remove any margins/padding around the navbar */
+.navbar {
+  background-color: #802929 
+ !important; /* Ocean blue */
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Make sure the navbar container fills completely */
+.navbar-nav {
+  background-color: #802929 !important;
+}
+
+/* Remove any wrapper padding */
+.navbar > .container,
+.navbar > .container-fluid {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* If there's a header wrapper, color it too */
+header {
+  background-color: #802929!important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Target the main navigation area */
+nav {
+  background-color: #802929 !important;
+}
+
+/* Navbar text color */
+.navbar .nav-link {
+  color: white !important;
+  padding: 1rem 0.75rem !important;
+}
+
+/* Navbar brand/logo text color */
+.navbar .navbar-brand {
+  color: white !important;
+  padding: 1rem 0 !important;
+}
+
+/* Hover effects */
+.navbar .nav-link:hover {
+  color: #e5e7eb !important;
+}
+
+/* Mobile menu button */
+.navbar .navbar-toggler {
+  border-color: white;
+}
+
+/* Remove any border/outline that might create white lines */
+.navbar {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Navbar text font size */
+.navbar .nav-link {
+  font-size: 1.0rem !important; /* 18px - slightly larger */
+}
+
+/* Navbar brand/logo font size (if you want to change it too) */
+.navbar .navbar-brand {
+  font-size: 1.5rem !important; /* 24px */
+}
+ 
+/* Mobile menu button text (if applicable) */
+.navbar .navbar-toggler {
+  font-size: 1rem !important; /* 16px */
+}
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Increase base text size */
+body {
+  font-size: 16px;   /* default is usually 16px */
+  line-height: 1.6;  /* better readability */
+}
+
+/* Headings hierarchy */
+h1 {
+  font-size: 2.5rem; /* ~40px */
+}
+h2 {
+  font-size: 2rem;   /* ~32px */
+}
+h3 {
+  font-size: 1.5rem; /* ~24px */
+}
+h4 {
+  font-size: 1.25rem; /* ~20px */
+}
+
+
+.avatar-wrapper .avatar {
+  width: 220px !important;
+  height: 220px !important;
+  transform: translate(-40px, -50px) !important;  /* Left 10px, Up 20px */
+  margin-bottom: 20px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+h3.font-semibold {
+  font-size: 1.1rem !important;        /* Normal size instead of h3 size */
+  font-weight: normal !important;    /* Remove semibold */
+  color: #6b7280 !important;         /* Gray color */
+  margin-bottom: 0.5rem !important;  /* Reduce bottom margin */
+}
+
+ /* Next two blocks are to hide the compressed image and using the one that has the original dimensions with high resolution*/
+.avatar-wrapper .avatar {
+  background-image: url('/images/avatar-original.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+  /* Hide the original image */
+  opacity: 0 !important;
+}
+
+.avatar-wrapper {
+  background-image: url('/images/avatar-original.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+}
+
+/* Target the WELCOME heading by its ID */
+#welcome {
+  font-size: 1.5rem !important;     /* Makes "WELCOME!" larger */
+  font-weight: bold !important;
+}
+
+/* Target the paragraph that comes right after the WELCOME heading */
+#welcome + p {
+  font-size: 1.08rem !important;   /* Makes the paragraph text larger */
+  line-height: 1.6 !important;      /* Better line spacing */
+}
+
+/* Or target the papers section specifically */
+#papers + .blox-collection {
+  margin-top: -7.5rem !important;
+}
+
+
+#papers .mb-6.text-3xl,
+#papers + section .mb-6.text-3xl {
+  margin-bottom: -2em !important;
+}
+
+
+/* Hide everything except the title and links for working papers */
+.pub-list-item:has(a[href*="/working-paper/"]) {
+  font-size: 0 !important;
+}
+
+/* Show only the title link and the attachment links */
+.pub-list-item:has(a[href*="/working-paper/"]) .underline,
+.pub-list-item:has(a[href*="/working-paper/"]) .flex.flex-wrap,
+.pub-list-item:has(a[href*="/working-paper/"]) .hb-attachment-link {
+  font-size: 1rem !important;
+}
+
+/* Show the icon */
+.pub-list-item:has(a[href*="/working-paper/"]) .pub-icon {
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+
+
+/* Make working paper title bold and remove underline */
+.pub-list-item:has(a[href*="/working-paper/"]) .underline {
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+
+
+
+
+/* Hide everything except the title and links for working papers */
+.pub-list-item:has(a[href*="/work-in-progress/"]) {
+  font-size: 0 !important;
+}
+
+/* Show only the title link and the attachment links */
+.pub-list-item:has(a[href*="/work-in-progress"]) .underline,
+.pub-list-item:has(a[href*="/work-in-progress/"]) .flex.flex-wrap,
+.pub-list-item:has(a[href*="/work-in-progress/"]) .hb-attachment-link {
+  font-size: 1rem !important;
+}
+
+/* Show the icon */
+.pub-list-item:has(a[href*="/work-in-progress/"]) .pub-icon {
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+
+
+/* Make working paper title bold and remove underline */
+.pub-list-item:has(a[href*="/work-in-progress/"]) .underline {
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+
+
+
+
+
+/* Hide everything except the title and links for publications */
+.pub-list-item:has(a[href*="/publication/"]) {
+  font-size: 0 !important;
+}
+
+/* Show only the title link and the attachment links */
+.pub-list-item:has(a[href*="/publication/"]) .underline,
+.pub-list-item:has(a[href*="/publication/"]) .flex.flex-wrap,
+.pub-list-item:has(a[href*="/publication/"]) .hb-attachment-link {
+  font-size: 1rem !important;
+}
+
+/* Show the icon */
+.pub-list-item:has(a[href*="/publication/"]) .pub-icon {
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+
+/* Make publication title bold and remove underline */
+.pub-list-item:has(a[href*="/publication/"]) .underline {
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+
+
+
+/*#################################### WORKING PAPERS #####################################*/
+
+/* Add coauthor after title by extracting from metadata */
+.pub-list-item:has(a[href*="/working-paper/my_working_paper"]) .underline::after {
+  content: ", with Marius Grunewald";
+  font-weight: normal !important;
+  font-style: italic !important;
+}
+
+
+/*########################################################################################*/
+
+
+
+/*#################################### WORKING-in-PROGRESS #####################################*/
+
+/* Add coauthor after title by extracting from metadata */
+.pub-list-item:has(a[href*="/work-in-progress/free-cities"]) .underline::after {
+  content: ", with Marius Grunewald";
+  font-weight: normal !important;
+  font-style: italic !important;
+}
+
+/* Add coauthor after title by extracting from metadata */
+.pub-list-item:has(a[href*="/work-in-progress/slavery"]) .underline::after {
+  content: "";
+  font-weight: normal !important;
+  font-style: italic !important;
+}
+
+
+/*########################################################################################*/
+
+
+
+/*#################################### PUBLICATIONS #####################################*/
+.pub-list-item:has(a[href*="/publication/managerial-firms/"]) .underline::after {
+  content: ", with Simone Moriconi, Journal of Institutional and Theoretical Economics (JITE),Volume 179/ Issue 2, pp. 340-380 (41)";
+  font-weight: normal !important;
+  font-style: italic !important;
+}
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+

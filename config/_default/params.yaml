@@ -3,10 +3,11 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
+custom_css: ["assets/css/custom.css"]
+
 appearance:
   mode: system
-  color: emerald
+  color: zinc    # closest to ocean blue
 
 # SEO
 marketing:
@@ -17,11 +18,11 @@ marketing:
     description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
     twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
+    google_analytics: ""
+    baidu_tongji: ""
+    plausible: ""
+    fathom: ""
+    pirsch: ""
   verification:
     google: ''
     baidu: ''
@@ -29,18 +30,21 @@ marketing:
 # Site header
 header:
   navbar:
+    background-color: red
     enable: true
     blox: "navbar"
+    # Align menu links: `left`, `center`, or `right`
+    align: "right"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Tuna Abay"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Tuna Abay. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

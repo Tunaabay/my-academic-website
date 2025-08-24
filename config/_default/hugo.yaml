@@ -38,8 +38,8 @@ outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
+  quality: 100
   resampleFilter: lanczos
-  quality: 80
   anchor: smart
 timeout: 600000
 taxonomies:
@@ -54,3 +54,6 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+#services:
+  #googleAnalytics:
+    #ID: ""
