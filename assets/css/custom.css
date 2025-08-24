@@ -142,6 +142,26 @@ h3.font-semibold {
   border-radius: 50% !important;
 }
 
+/* Update avatar CSS for GitHub Pages */
+.avatar-wrapper .avatar {
+  background-image: url('/my-academic-website/images/avatar-original.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+  opacity: 0 !important;
+}
+
+.avatar-wrapper {
+  background-image: url('/my-academic-website/images/avatar-original.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+}
+
 /* Target the WELCOME heading by its ID */
 #welcome {
   font-size: 1.5rem !important;     /* Makes "WELCOME!" larger */
