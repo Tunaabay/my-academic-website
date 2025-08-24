@@ -35,11 +35,11 @@ profiles:
     url: 'mailto:your-email@example.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://x.com/tunaabay
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Tunaabay
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/tuna-abay-0a797613b/
   #- icon: academicons/google-scholar
     #url: https://scholar.google.com/
   #- icon: academicons/orcid
