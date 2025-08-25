@@ -3,6 +3,12 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+# Add these at the top level (not under marketing)
+description: "Tuna Abay, Economics PhD candidate at European University Institute. Research in Economic growth, innovation, technological change and firm dynamics."
+author: "Tuna Abay"
+keywords: ["Tuna Abay", "Economics", "PhD", "European University Institute", "Research", "Academic", "Job Market", "Job Market Candidate", "Economic Growth", "Innovation", "Technological Change", "Firm Dynamics"]
+
+
 custom_css: ["assets/css/custom.css"]
 
 appearance:
@@ -14,9 +20,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'European University Institute'
+    description: 'Tuna Abay, Economics PhD candidate at European University Institute. Academic research, publications, and working papers in economics.'
+    twitter: ''  # Add your Twitter handle if you have one, or leave blank
   analytics:
     google_analytics: ""
     baidu_tongji: ""
@@ -24,8 +30,9 @@ marketing:
     fathom: ""
     pirsch: ""
   verification:
-    google: ''
+    google: ''  # We'll add this after setting up Google Search Console
     baidu: ''
+
 
 # Site header
 header:
