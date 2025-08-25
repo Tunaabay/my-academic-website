@@ -57,4 +57,9 @@ sitemap:
 #services:
   #googleAnalytics:
     #ID: ""
-baseURL: 'https://tunaabay.com/'  # Change from the GitHub Pages URL    
+title: "Tuna Abay - Economics PhD Candidate"
+baseURL: 'https://tunaabay.com/'
+params:
+  description: "Tuna Abay, Economics PhD candidate at European University Institute. Research in Economic growth, innovation, technological change and firm dynamics."
+  author: "Tuna Abay"
+  keywords: ["Tuna Abay", "Economics", "PhD", "European University Institute", "Research", "Academic", "Job Market", "Job Market Candidate"]   
