@@ -121,30 +121,9 @@ h3.font-semibold {
   margin-bottom: 0.5rem !important;  /* Reduce bottom margin */
 }
 
- /* Next two blocks are to hide the compressed image and using the one that has the original dimensions with high resolution*/
-.avatar-wrapper .avatar {
-  background-image: url('/images/avatar-original.jpg') !important;
-  background-size: cover !important;
-  background-position: center !important;
-  width: 200px !important;
-  height: 200px !important;
-  border-radius: 50% !important;
-  /* Hide the original image */
-  opacity: 0 !important;
-}
 
-.avatar-wrapper {
-  background-image: url('/images/avatar-original.jpg') !important;
-  background-size: cover !important;
-  background-position: center !important;
-  width: 200px !important;
-  height: 200px !important;
-  border-radius: 50% !important;
-}
-
-/* Update avatar CSS for GitHub Pages */
 .avatar-wrapper .avatar {
-  background-image: url('/my-academic-website/images/avatar-original.jpg') !important;
+  background-image: url('/images/avatar-original.jpg') !important;  /* Remove /my-academic-website/ */
   background-size: cover !important;
   background-position: center !important;
   width: 200px !important;
@@ -154,7 +133,7 @@ h3.font-semibold {
 }
 
 .avatar-wrapper {
-  background-image: url('/my-academic-website/images/avatar-original.jpg') !important;
+  background-image: url('/images/avatar-original.jpg') !important;  /* Remove /my-academic-website/ */
   background-size: cover !important;
   background-position: center !important;
   width: 200px !important;
