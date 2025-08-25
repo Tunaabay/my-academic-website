@@ -57,3 +57,4 @@ sitemap:
 #services:
   #googleAnalytics:
     #ID: ""
+baseURL: 'https://tunaabay.com/'  # Change from the GitHub Pages URL    
