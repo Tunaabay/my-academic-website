@@ -4,9 +4,15 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
+title: "Tuna Abay - Economics PhD Candidate"
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://tunaabay.com/'
+
+params:
+  description: "Tuna Abay, Economics PhD candidate at European University Institute. Research in Economic growth, innovation, technological change and firm dynamics."
+  author: "Tuna Abay"
+  keywords: ["Tuna Abay", "Economics", "PhD", "European University Institute", "Research", "Academic", "Job Market", "Job Market Candidate"]  
+ 
 
 ############################
 ## LANGUAGE
