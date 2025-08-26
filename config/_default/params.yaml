@@ -74,4 +74,4 @@ icon:
   pack: "fas"
   name: "user-graduate"  # or just use the default favicon files
 
-icon: "/favicon.ico"
+icon: "media/icon.png"
