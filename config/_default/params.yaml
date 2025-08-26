@@ -74,4 +74,4 @@ icon:
   pack: "fas"
   name: "media/icon.png"  # or just use the default favicon files
 
-icon: "media/icon.png"
+favicon: "icon.png"
