@@ -72,6 +72,6 @@ features:
 
 icon:
   pack: "fas"
-  name: "user-graduate"  # or just use the default favicon files
+  name: "media/icon.png"  # or just use the default favicon files
 
 icon: "media/icon.png"
