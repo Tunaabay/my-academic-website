@@ -23,10 +23,11 @@ highlight_name: true
 # Role/position/tagline
 role: Economics PHD candidate
 
+
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name:  European University Institute
-    url: https://www.eui.eu/en/academic-units/department-of-economics
+    url: https://www.eui.eu/people?id=tuna-abay
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
