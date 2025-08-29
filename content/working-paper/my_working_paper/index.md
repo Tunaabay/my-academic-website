@@ -7,10 +7,10 @@ author_notes:
 - ""
 - ""
 # Remove or comment out the date field entirely for working papers
-date: "2013-09-01T00:00:00Z" 
+date: "2025-08-01T00:00:00Z" 
 doi: ""
 
-publishDate: "2024-01-01T00:00:00Z"
+publishDate: "2025-08-01T00:00:00Z"
 
 # Use a different publication type for working papers
 publication_types: [""] # or ["working-paper"] or ["preprint"]

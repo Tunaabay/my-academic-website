@@ -5,12 +5,21 @@
     <link>http://localhost:1313/</link>
       <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Tuna Abay - Economics PhD Candidate</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_56c9004d144303d.png</url>
       <title>Tuna Abay - Economics PhD Candidate</title>
       <link>http://localhost:1313/</link>
     </image>
+    
+    <item>
+      <title>My Working Paper Title</title>
+      <link>http://localhost:1313/working-paper/my_working_paper/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/working-paper/my_working_paper/</guid>
+      <description>&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Institutional Differences and Development of Ideas in Late Middle Ages</title>
@@ -34,15 +43,6 @@
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/work-in-progress/slavery/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>My Working Paper Title</title>
-      <link>http://localhost:1313/working-paper/my_working_paper/</link>
-      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/working-paper/my_working_paper/</guid>
-      <description>&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
