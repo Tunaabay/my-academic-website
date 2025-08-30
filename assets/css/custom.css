@@ -288,7 +288,7 @@ h3.font-semibold {
 
 /*#################################### PUBLICATIONS #####################################*/
 .pub-list-item:has(a[href*="/publication/managerial-firms/"]) .underline::after {
-  content: ", with Simone Moriconi, Journal of Institutional and Theoretical Economics (JITE),Volume 179/ Issue 2, pp. 340-380 (41)";
+  content: ", with Simone Moriconi, Journal of Institutional and Theoretical Economics (JITE), Volume 179/ Issue 2, 2023, pp. 340-380 (41)";
   font-weight: normal !important;
   font-style: italic !important;
 }
