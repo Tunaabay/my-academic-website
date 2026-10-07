@@ -1,5 +1,5 @@
 ---
-title: "American Salvery, Innovation, and Economic Growth"
+title: "American Salvery, Innovation, and Economic Growth (Job market Paper) (JMP)"
 authors:
 - admin
 author_notes:
