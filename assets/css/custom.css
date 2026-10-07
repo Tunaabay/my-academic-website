@@ -293,6 +293,38 @@ h3.font-semibold {
   font-style: italic !important;
 }
 
+/* Badges for publication metadata (award, job-market, best-paper, etc.)
+   Usage: add `pub_badge: "Best Paper Award"` (or similar) to a publication's
+   front-matter. Hugo will render it as an attribute we can target via a
+   data attribute on the generated list item, e.g. `data-pub-badge="Best Paper Award"`.
+   If you cannot modify templates to add the data attribute, add the badge
+   by manually adding a small span inside the publication title in the
+   content file (class `pub-badge`). */
+.pub-list-item[data-pub-badge] .underline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.pub-list-item[data-pub-badge] .underline::before,
+.pub-list-item .pub-badge {
+  display: inline-block;
+  background: #ffefc2;
+  color: #7a3e00;
+  font-size: 0.8rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(0,0,0,0.06);
+  font-weight: 600;
+}
+.pub-list-item[data-pub-badge] .underline::before {
+  content: attr(data-pub-badge);
+}
+
+/* Example helper class when editing content directly */
+.pub-badge {
+  margin-left: 0.5rem;
+}
+
 
 /*########################################################################################*/
 
