@@ -1,5 +1,5 @@
 ---
-title: "American Salvery, Innovation, and Economic Growth (Job market Paper) (JMP)"
+title: "American Salvery, Innovation, and Economic Growth"
 authors:
 - admin
 author_notes:
@@ -75,32 +75,5 @@ slides: example
 ---
 
 (Job market Paper) (JMP)
-
-<!-- Custom header: Best paper badge before title + styled JMP label -->
-<style>
-  .custom-best-badge{display:inline-block;background:#f3f4f6;color:#374151;font-size:0.9rem;padding:0.18rem 0.6rem;border-radius:9999px;border:1px solid rgba(0,0,0,0.06);font-weight:600;margin-right:1rem}
-  .custom-title{display:inline;font-size:2rem;font-weight:700;margin:0}
-  .custom-jmp{color:#6b7280;font-size:0.95rem;font-weight:600;margin-left:2.25rem}
-  .custom-header-wrapper{margin-bottom:1rem}
-</style>
-
-<div class="custom-header-wrapper">
-  <span class="custom-best-badge">EUI Best 2nd year paper</span>
-  <span class="custom-title">American Salvery, Innovation, and Economic Growth</span>
-  <span class="custom-jmp">&nbsp;&nbsp;&nbsp;(Job Market Paper)</span>
-</div>
-
-<script>
-  // Hide the theme-generated page title on this page so our custom header shows instead
-  (function(){
-    try{
-      // Delay to allow the theme DOM to render
-      setTimeout(function(){
-        var sel = document.querySelector('main h1');
-        if(sel){ sel.style.display = 'none'; }
-      }, 60);
-    }catch(e){}
-  })();
-</script>
 
 
