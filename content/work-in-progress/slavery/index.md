@@ -68,7 +68,7 @@ projects:
 slides: example
 ---
 
-(Job market Paper)
+(Job market Paper) (JMP)
 
 <span class="pub-badge" style="background:#f3f4f6;color:#374151;font-size:0.8rem;padding:0.15rem 0.5rem;border-radius:9999px;border:1px solid rgba(0,0,0,0.06);margin-top:0.5rem;display:inline-block;">EUI Best 2nd year paper</span>
 
