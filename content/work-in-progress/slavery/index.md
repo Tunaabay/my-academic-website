@@ -31,6 +31,12 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
+# Make this appear first in lists
+weight: -100
+
+# Badge to show inline on listing items
+pub_badge: "EUI Best 2nd year paper"
+
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
