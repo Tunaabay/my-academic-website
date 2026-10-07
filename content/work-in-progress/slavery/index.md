@@ -1,5 +1,5 @@
 ---
-title: "Slavery, Innovation, and Growth"
+title: "American Salvery, Innovation, and Economic Growth"
 authors:
 - admin
 author_notes:
@@ -67,5 +67,9 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
+
+(Job market Paper)
+
+<span class="pub-badge" style="background:#f3f4f6;color:#374151;font-size:0.8rem;padding:0.15rem 0.5rem;border-radius:9999px;border:1px solid rgba(0,0,0,0.06);margin-top:0.5rem;display:inline-block;">EUI Best 2nd year paper</span>
 
 
