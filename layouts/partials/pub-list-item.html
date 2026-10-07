@@ -1,0 +1,24 @@
+{{/*
+  Override partial to ensure listing items expose `data-pub-badge` so
+  `assets/css/custom.css` can render badges inline on list pages.
+
+  This partial is intentionally small: it wraps the original link structure
+  and sets `data-pub-badge` when `.Params.pub_badge` is present.
+*/}}
+{{ $badge := .Params.pub_badge }}
+<a href="{{ .RelPermalink }}" class="mb-5" {{ if $badge }}data-pub-badge="{{ $badge }}"{{ end }}>
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden"></div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">{{ .Title }}</div>
+      {{ if $badge }}
+        <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+          <span class="pub-badge">{{ $badge }}</span>
+        </p>
+      {{ else }}
+        <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">{{ .Summary }}</p>
+      {{ end }}
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">{{ with .PublishDate }}{{ .Format "Jan 2, 2006" }}{{ end }}</p>
+    </div>
+  </div>
+</a>
