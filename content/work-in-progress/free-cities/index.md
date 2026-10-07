@@ -67,4 +67,4 @@ projects:
 slides: example
 ---
 
-
+<span class="draft-coming-soon">Draft coming soon!</span>

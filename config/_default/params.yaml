@@ -12,7 +12,7 @@ keywords: ["Tuna Abay", "Economics", "PhD", "European University Institute", "Re
 custom_css: ["assets/css/custom.css"]
 
 appearance:
-  mode: system
+  mode: light
   color: zinc    # closest to ocean blue
 
 # SEO

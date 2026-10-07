@@ -18,13 +18,13 @@ publishDate: "2023-06-14T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Institutional and Theoretical Economics (JITE),Volume 179/ Issue 2, pp. 340-380 (41)"
+publication: "*Journal of Institutional and Theoretical Economics (JITE), Volume 179/ Issue 2, pp. 340-380 (41)*"
 publication_short: ""
 
 abstract: "This paper investigates welfare properties of an economy where firms are managerial, i.e., composed of two complementary units, each run by its own manager. We show that welfare outcomes depend on the interplay between the set of private costs and benefits that are associated with the coordination of operating decisions inside the firm. We also derive a number of interesting results regarding the welfare effects of taxation, which depend on market conditions, tax levels, and structure of managerial incentives. In some cases, these welfare effects are due to \"tax-induced\" changes in the ownership structure of firms in the industry equilibrium."
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "This paper examines how coordination between managers affects welfare and how taxation influences welfare and firm ownership structure."
 
 tags:
 #- Source Themes
@@ -64,4 +64,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-

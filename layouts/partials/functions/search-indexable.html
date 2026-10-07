@@ -1,0 +1,4 @@
+{{/* Keep the homepage, About page, and real research papers in search results. */}}
+{{ $isPaper := and .IsPage (in (slice "publication" "work-in-progress") .Section) }}
+{{ $isAbout := eq .RelPermalink ("about/" | relLangURL) }}
+{{ return (and (not .Params.private) (or .IsHome $isPaper $isAbout)) }}

@@ -1,0 +1,5 @@
+{{/* Keep excluded pages crawlable so search engines can see noindex.
+     Private pages receive their noindex tag from the theme. */}}
+{{ if and (not (partial "functions/search-indexable" .)) (not .Params.private) }}
+  <meta name="robots" content="noindex, follow" />
+{{ end }}

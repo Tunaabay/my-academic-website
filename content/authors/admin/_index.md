@@ -21,7 +21,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Economics PHD candidate
+role: Economics PhD candidate
 
 
 # Organizations/Affiliations to display in Biography blox
@@ -159,6 +159,10 @@ profiles:
       #Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## WELCOME!
+I am a PhD candidate in Economics at the European University Institute (EUI). My research focuses on economic growth, innovation, firm dynamics and economic history. Specifically, I examine how labor market conditions, previous innovations, and the characteristics of different technology fields shape the direction of technological change and affect economic growth.
 
-I am a fifth-year Ph.D. candidate in Economics at the European University Institute (EUI) in Florence, Italy. My research focuses on economic growth, innovation, and firm dynamics. Specifically, I examine how the direction of technological change is shaped by labor market conditions, previous innovations, and the characteristics of different technology fields.
+**I am on the 2026–2027 academic job market.**
+
+My supervisors are [Alexander Monge-Naranjo](https://www.atlantafed.org/who-we-are/people/research/economists/alexander-monge-naranjo#tab-1) and [Russell Cooper](https://sites.google.com/site/coopereconomics/).
+
+You can [download my CV here](/uploads/resume.pdf?v=20261007).

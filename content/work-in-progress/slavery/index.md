@@ -1,5 +1,5 @@
 ---
-title: "American Salvery, Innovation, and Economic Growth"
+title: "American Slavery, Innovation, and Economic Growth"
 authors:
 - admin
 author_notes:
@@ -34,8 +34,8 @@ featured: true
 # Make this appear first in lists
 weight: -100
 
-# Badge to show inline on listing items
-pub_badge: "EUI Best 2nd year paper"
+# Award to show below the title on the homepage
+pub_badge: "EUI Best Second Year Paper Award"
 
 # Custom links (uncomment lines below)
 # links:
@@ -74,6 +74,4 @@ projects:
 slides: example
 ---
 
-(Job market Paper) (JMP)
-
-
+<span class="draft-coming-soon">Draft coming soon!</span>

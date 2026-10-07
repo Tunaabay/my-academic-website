@@ -274,11 +274,35 @@ h3.font-semibold {
   font-style: italic !important;
 }
 
-/* Add coauthor after title by extracting from metadata */
-.pub-list-item:has(a[href*="/work-in-progress/slavery"]) .underline::after {
-  content: "";
+.draft-coming-soon {
+  color: #000;
+}
+
+/* Add the job market label beside this paper on the homepage. */
+.pub-list-item:has(a[href*="/work-in-progress/directed-innovation/"]) .underline::after {
+  content: ", with Alexander Monge-Naranjo";
   font-weight: normal !important;
   font-style: italic !important;
+}
+
+.pub-list-item .pub-award {
+  display: none;
+}
+
+#papers .pub-list-item .pub-award {
+  display: block;
+  margin-top: 0.35rem;
+  color: #6b7280;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+#papers .pub-list-item:has(a[href*="/work-in-progress/slavery/"]) .underline::after {
+  content: "(Job Market Paper)";
+  margin-left: 0.75rem;
+  color: #6b7280;
+  font-weight: normal !important;
+  font-style: normal !important;
 }
 
 
@@ -338,11 +362,6 @@ h3.font-semibold {
 
 
 /*########################################################################################*/
-
-
-
-
-
 
 
 

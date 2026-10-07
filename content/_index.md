@@ -66,6 +66,8 @@ sections:
     content:
       title: Work in Progress
       text: ""
+      sort_by: Weight
+      sort_ascending: true
       filters:
         folders:
           - work-in-progress 
