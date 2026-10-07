@@ -1,7 +1,6 @@
 ---
 title: "Institutional Differences and Development of Ideas in Late Middle Ages"
 authors:
-- admin
 - Marius Grunewald
 author_notes:
 - ""
