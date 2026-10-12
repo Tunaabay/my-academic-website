@@ -165,4 +165,4 @@ I am a PhD candidate in Economics at the European University Institute (EUI). My
 
 My supervisors are [Alexander Monge-Naranjo](https://www.atlantafed.org/who-we-are/people/research/economists/alexander-monge-naranjo) and [Russell Cooper](https://sites.google.com/site/coopereconomics/).
 
-You can [download my CV here](/uploads/resume.pdf?v=20261007).
+You can [download my CV here](/uploads/resume.pdf?v=20261012).

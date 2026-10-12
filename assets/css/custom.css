@@ -105,40 +105,31 @@ h4 {
 }
 
 
+/* Display the original portrait directly for sharp rendering at browser zoom. */
+.avatar-wrapper {
+  width: min(280px, 70vw) !important;
+  height: min(280px, 70vw) !important;
+  border-radius: 50% !important;
+}
+
 .avatar-wrapper .avatar {
-  width: 220px !important;
-  height: 220px !important;
-  transform: translate(-40px, -50px) !important;  /* Left 10px, Up 20px */
-  margin-bottom: 20px !important;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
   object-fit: cover !important;
   object-position: center !important;
 }
 
 h3.font-semibold {
-  font-size: 1.1rem !important;        /* Normal size instead of h3 size */
-  font-weight: normal !important;    /* Remove semibold */
-  color: #6b7280 !important;         /* Gray color */
-  margin-bottom: 0.5rem !important;  /* Reduce bottom margin */
-}
-
-
-.avatar-wrapper .avatar {
-  background-image: url('/images/avatar-original.jpg') !important;  /* Remove /my-academic-website/ */
-  background-size: cover !important;
-  background-position: center !important;
-  width: 200px !important;
-  height: 200px !important;
-  border-radius: 50% !important;
-  opacity: 0 !important;
-}
-
-.avatar-wrapper {
-  background-image: url('/images/avatar-original.jpg') !important;  /* Remove /my-academic-website/ */
-  background-size: cover !important;
-  background-position: center !important;
-  width: 200px !important;
-  height: 200px !important;
-  border-radius: 50% !important;
+  font-size: 1.1rem !important;
+  font-weight: normal !important;
+  color: #6b7280;
+  margin-bottom: 0.5rem !important;
 }
 
 /* Target the WELCOME heading by its ID */
