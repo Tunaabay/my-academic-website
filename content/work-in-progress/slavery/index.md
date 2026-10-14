@@ -1,5 +1,5 @@
 ---
-title: "American Slavery, Innovation, and Economic Growth"
+title: "American Slavery, Innovation, and Growth"
 authors:
 - admin
 author_notes:

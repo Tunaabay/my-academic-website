@@ -105,7 +105,7 @@ h4 {
 }
 
 
-/* Display the original portrait directly for sharp rendering at browser zoom. */
+/* Display the full-resolution portrait with its wider crop. */
 .avatar-wrapper {
   width: min(280px, 70vw) !important;
   height: min(280px, 70vw) !important;

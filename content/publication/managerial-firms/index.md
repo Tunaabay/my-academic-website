@@ -30,10 +30,7 @@ tags:
 #- Source Themes
 featured: false
 
-#links:
- #- name: "Working Paper"
-  #url: ""
-url_pdf: https://viewer.content-select.com/pdf/viewer?ip=192.167.90.141&id_type=doi&identifiers=10.1628%2fjite-2023-0030&signature=d51882573e6bca0cd21dfab4aa337e71351641bf&session=51c5e737-ff52-40ea-845c-8187ea2b6794
+url_pdf: "https://www.mohrsiebeck.com/en/article/managerial-firms-taxation-and-welfare-101628jite-2023-0030/"
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_dataset: ''
 url_poster: ''
