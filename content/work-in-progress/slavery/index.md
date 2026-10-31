@@ -42,7 +42,8 @@ pub_badge: "EUI Best Second Year Paper Award"
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+# Upload the forthcoming draft to static/uploads/job-market-paper.pdf.
+url_pdf: '/uploads/job-market-paper.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

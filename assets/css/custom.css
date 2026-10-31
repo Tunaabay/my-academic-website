@@ -269,6 +269,19 @@ h3.font-semibold {
   color: #000;
 }
 
+/* Match PDF attachments to the site's dark red navigation. */
+.hb-attachment-link[href$=".pdf"],
+.hb-attachment-link[href="https://www.mohrsiebeck.com/en/article/managerial-firms-taxation-and-welfare-101628jite-2023-0030/"] {
+  color: #802929 !important;
+}
+
+.hb-attachment-link[href$=".pdf"]:hover,
+.hb-attachment-link[href$=".pdf"]:focus-visible,
+.hb-attachment-link[href="https://www.mohrsiebeck.com/en/article/managerial-firms-taxation-and-welfare-101628jite-2023-0030/"]:hover,
+.hb-attachment-link[href="https://www.mohrsiebeck.com/en/article/managerial-firms-taxation-and-welfare-101628jite-2023-0030/"]:focus-visible {
+  color: #5c1d1d !important;
+}
+
 /* Add the job market label beside this paper on the homepage. */
 .pub-list-item:has(a[href*="/work-in-progress/directed-innovation/"]) .underline::after {
   content: ", with Alexander Monge-Naranjo";
