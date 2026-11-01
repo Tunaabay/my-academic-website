@@ -282,6 +282,30 @@ h3.font-semibold {
   color: #5c1d1d !important;
 }
 
+/* Make the job market paper PDF prominent on its interior page. */
+.hb-attachment-link.hb-attachment-large[href="/uploads/job-market-paper.pdf"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 2px solid currentColor;
+  border-radius: 0.5rem;
+  background-color: #fff5f5;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.hb-attachment-link.hb-attachment-large[href="/uploads/job-market-paper.pdf"]:hover {
+  background-color: #fce8e8;
+}
+
+.hb-attachment-link.hb-attachment-large[href="/uploads/job-market-paper.pdf"]:focus-visible {
+  outline: 3px solid #802929;
+  outline-offset: 3px;
+}
+
 /* Add the job market label beside this paper on the homepage. */
 .pub-list-item:has(a[href*="/work-in-progress/directed-innovation/"]) .underline::after {
   content: ", with Alexander Monge-Naranjo";
