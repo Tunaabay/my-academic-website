@@ -20,7 +20,8 @@ publication_short: ""
 draft: false  # Add this line if it's missing
 
 
-abstract: 
+abstract: >-
+  Can slavery explain the U.S. South’s relative economic decline during the nineteenth century by discouraging innovation? I investigate this question by combining new evidence from historical patent data with a task-based endogenous growth model. I document a number of stylized facts showing low mechanization and patenting in the South before emancipation. Patenting was particularly limited in technologies substituting for enslaved labor. Following emancipation, once access to enslaved labor was no longer possible, patenting in these technologies increased approximately threefold relative to patenting in similar technologies. To explain these patterns, I model coercion as a costless technology under slavery that augments the productivity of coerced labor in routine tasks, making it more competitive against machines. In equilibrium, this leads to low mechanization. Since machines can be improved after their initial invention, weaker incentives to mechanize also slow long-run growth. To assess the quantitative importance of this mechanism, I estimate a two-region model using historical data on the U.S. North and South. The estimated model shows that abolition initially lowers output, but innovation gains eventually dominate, generating substantial long-run gains for the Southern economy. In the most striking case, abolition occurring 60 years earlier would have increased Southern GDP per worker by 43 percent in 1910.
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -42,7 +43,7 @@ pub_badge: "EUI Best Second Year Paper Award"
 # - name: Custom Link
 #   url: http://example.org
 
-# Upload the forthcoming draft to static/uploads/job-market-paper.pdf.
+# PDF stored in static/uploads/job-market-paper.pdf.
 url_pdf: '/uploads/job-market-paper.pdf'
 url_code: ''
 url_dataset: ''
@@ -74,5 +75,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
-<span class="draft-coming-soon">Draft coming soon!</span>
